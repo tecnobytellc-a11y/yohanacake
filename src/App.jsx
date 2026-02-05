@@ -486,7 +486,7 @@ export default function App() {
             <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
               <Phone size={20} className="text-[#D4AF37]" /> 
               {/* CAMBIAR AQUI EL TELÉFONO */}
-              <span>+58 412 123 4567</span>
+              <span>+58 426-6531604</span>
             </div>
             <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
               <Instagram size={20} className="text-[#D4AF37]" /> 
