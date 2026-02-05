@@ -454,9 +454,15 @@ export default function App() {
                     )}
                   </div>
                   
-                  <button className="w-full mt-8 bg-[#4A3B2B] text-white py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-[#D4AF37] transition-colors duration-300 shadow-lg shadow-[#4A3B2B]/20">
+                  {/* BOTÓN ORDENAR AHORA CON WHATSAPP */}
+                  <a 
+                    href={`https://wa.me/584266531604?text=Hola, estoy interesado en ordenar el pastel: ${encodeURIComponent(cake.name)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full text-center mt-8 bg-[#4A3B2B] text-white py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-[#D4AF37] transition-colors duration-300 shadow-lg shadow-[#4A3B2B]/20"
+                  >
                     Ordenar Ahora
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
@@ -485,8 +491,7 @@ export default function App() {
             </div>
             <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
               <Phone size={20} className="text-[#D4AF37]" /> 
-              {/* CAMBIAR AQUI EL TELÉFONO */}
-              <span>+58 426-6531604</span>
+              <span>+58 426 653 1604</span>
             </div>
             <div className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
               <Instagram size={20} className="text-[#D4AF37]" /> 
